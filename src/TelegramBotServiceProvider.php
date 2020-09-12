@@ -1,7 +1,7 @@
 
 <?php
 
-namespace Farshadff\TelegramBot;
+namespace TelegramBot;
 
 use GuzzleHttp\Client as HttpClient;
 use Illuminate\Support\ServiceProvider;
