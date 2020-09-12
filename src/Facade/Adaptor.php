@@ -1,13 +1,9 @@
 <?php
-
-namespace Farshad\TelegramBot;
+ namespace  DirectDebitBoom\Facade;
 
 use Illuminate\Support\Facades\Facade;
 
-/**
- * @see \Farshad\TelegramBot\Skeleton\SkeletonClass
- */
-class TelegramBotFacade extends Facade
+class Adaptor extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -16,6 +12,6 @@ class TelegramBotFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'telegram-bot';
+        return 'adaptor';
     }
 }
