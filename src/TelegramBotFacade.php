@@ -1,9 +1,12 @@
 <?php
- namespace  DirectDebitBoom\Facade;
+
+
+namespace NotificationChannels\Telegram;
+
 
 use Illuminate\Support\Facades\Facade;
 
-class Adaptor extends Facade
+class TelegramBotFacade extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -12,6 +15,7 @@ class Adaptor extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'adaptor';
+        return 'telegram-bot';
     }
+    
 }

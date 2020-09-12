@@ -1,17 +1,17 @@
 {
-    "name": "kamranshalilian/laravel-direct-debit",
-    "description": "api direct debit boom",
+    "name": "farshadff/telegrambot",
+    "description": "telegram bot",
     "authors": [
         {
-            "name": "kamran",
-            "email": "shaliliankamran@gmail.com"
+            "name": "frshadff",
+            "email": "farshad.badiee@gmail.com"
         }
     ],
     "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
-                "DirectDebitBoom\\DDBoomServiceProvider"
+                "TelegramBot\\TelegramBotServiceProvider"
             ]
         }
     },
@@ -20,7 +20,7 @@
         ],
         "psr-4": {
             "App\\": "app/",
-            "DirectDebitBoom\\": "src/"
+            "telegram-bot\\": "src/"
         }
     }
 }
