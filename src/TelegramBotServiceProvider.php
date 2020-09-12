@@ -1,4 +1,3 @@
-
 <?php
 
 namespace TelegramBot;
@@ -16,22 +15,32 @@ class TelegramBotServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        $this->app->when(TelegramChannel::class)
-            ->needs(Telegram::class)
-            ->give(static function () {
-                return new Telegram(
+
+//        $this->app->when(TelegramBot::class)
+//            ->needs(TelegramBot::class)
+//            ->give(static function () {
+//                return new TelegramBot(
+//                    config('services.telegram-bot-api.token'),
+//                    app(HttpClient::class),
+//                    config('services.telegram-bot-api.base_uri'),
+//                    config('services.telegram-bot-api.chat_id')
+//                );
+//            });
+        $this->app->bind(TelegramBot::class,function ($app){
+            return new TelegramBot(
                     config('services.telegram-bot-api.token'),
-                    app(HttpClient::class),
-                    config('services.telegram-bot-api.base_uri')
+                   app(HttpClient::class),
+                  config('services.telegram-bot-api.base_uri'),
+                   config('services.telegram-bot-api.chat_id')
                 );
-            });
+        });
     }
     /**
      * Register the application services.
      */
     public function register(){
         // Automatically apply the package configuration
-        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'telegram-bot');
+//        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'telegram-bot');
 
         $this->app->singleton('telegram-bot', function () {
             return new TelegramBot;

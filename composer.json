@@ -1,5 +1,5 @@
 {
-    "name": "farshadff/telegrambot",
+    "name": "farshadff/telegram-bot",
     "description": "telegram bot",
     "authors": [
         {
@@ -20,7 +20,7 @@
         ],
         "psr-4": {
             "App\\": "app/",
-            "telegram-bot\\": "src/"
+            "TelegramBot\\": "src/"
         }
     }
 }

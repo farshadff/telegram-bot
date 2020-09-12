@@ -1,12 +1,12 @@
 <?php
 
 
-namespace NotificationChannels\Telegram;
+namespace TelegramBot;
 
 
 use Illuminate\Support\Facades\Facade;
 
-class TelegramBotFacade extends Facade
+class Telegram extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -17,5 +17,5 @@ class TelegramBotFacade extends Facade
     {
         return 'telegram-bot';
     }
-    
+
 }
