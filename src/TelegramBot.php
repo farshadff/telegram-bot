@@ -32,7 +32,7 @@ class TelegramBot
     {
         $this->client->get($this->apiBaseUri . 'bot' . $this->token . '/sendLocation&latitude=' . $lat.'&longitude='.$long.'&chat_id='.$this->chat_id, []);
     }
-    public function getChatMembersCount($lat = null,$long=null)
+    public function getChatMembersCount()
     {
         $this->client->get($this->apiBaseUri . 'bot' . $this->token . '/getChatMembersCount&'.'&chat_id='.$this->chat_id, []);
     }
