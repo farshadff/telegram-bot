@@ -20,16 +20,21 @@ class TelegramBot
 
     public function sendMessage($message = null)
     {
-        $this->client->get($this->apiBaseUri . 'bot' . $this->token . '/sendMessage?text=' . $message, []);
+        $this->client->get($this->apiBaseUri . 'bot' . $this->token . '/sendMessage?text=' . $message.'&chat_id='.$this->chat_id, []);
     }
 
     public function sendPhoto($photo = null,$caption=null)
     {
-        $this->client->get($this->apiBaseUri . 'bot' . $this->token . '/sendPhoto&photo=' . $photo,'&caption='.$caption, []);
+        $this->client->get($this->apiBaseUri . 'bot' . $this->token . '/sendPhoto&photo=' . $photo,'&caption='.$caption.'&chat_id='.$this->chat_id, []);
     }
 
     public function sendLocation($lat = null,$long=null)
     {
-        $this->client->get($this->apiBaseUri . 'bot' . $this->token . '/sendLocation&latitude=' . $lat.'&longitude='.$long, []);
+        $this->client->get($this->apiBaseUri . 'bot' . $this->token . '/sendLocation&latitude=' . $lat.'&longitude='.$long.'&chat_id='.$this->chat_id, []);
     }
+    public function getChatMembersCount($lat = null,$long=null)
+    {
+        $this->client->get($this->apiBaseUri . 'bot' . $this->token . '/getChatMembersCount&'.'&chat_id='.$this->chat_id, []);
+    }
+
 }
