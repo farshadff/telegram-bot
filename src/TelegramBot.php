@@ -23,13 +23,13 @@ class TelegramBot
         $this->client->get($this->apiBaseUri . 'bot' . $this->token . '/sendMessage?text=' . $message, []);
     }
 
-    public function sendPhoto($message = null)
+    public function sendPhoto($photo = null,$caption=null)
     {
-        $this->client->get($this->apiBaseUri . 'bot' . $this->token . '/sendMessage' . $message, []);
+        $this->client->get($this->apiBaseUri . 'bot' . $this->token . '/sendPhoto&photo=' . $photo,'&caption='.$caption, []);
     }
 
-    public function sendLocation($message = null)
+    public function sendLocation($lat = null,$long=null)
     {
-        $this->client->get($this->apiBaseUri . 'bot' . $this->token . '/sendMessage' . $message, []);
+        $this->client->get($this->apiBaseUri . 'bot' . $this->token . '/sendLocation&latitude=' . $lat.'&longitude='.$long, []);
     }
 }
