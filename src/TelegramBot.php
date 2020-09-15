@@ -26,7 +26,7 @@ class TelegramBot
 
     public function sendPhoto($photo = null,$caption=null)
     {
-        $this->client->get($this->apiBaseUri.$this->token.'/sendPhoto&photo='.$photo,'&caption='.$caption.'&chat_id='.$this->chat_id.'&parse_mode='.$this->parse_mode, []);
+        $this->client->get($this->apiBaseUri.$this->token.'/sendPhoto&photo='.$photo.'&caption='.$caption.'&chat_id='.$this->chat_id.'&parse_mode='.$this->parse_mode, []);
     }
 
     public function sendLocation($lat = null,$long=null)
