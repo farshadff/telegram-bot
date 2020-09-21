@@ -1,26 +1,15 @@
 # laravel-Telegram-Bot
 ![Current Version](https://img.shields.io/badge/version-v0.1-blue)
 ![GitHub contributors](https://img.shields.io/github/contributors/madhur-taneja/README-Template)
-![GitHub stars](https://img.shields.io/github/stars/madhur-taneja/README-Template?style=social)
-![GitHub forks](https://img.shields.io/github/forks/madhur-taneja/README-Template?style=social)
+![GitHub stars](https://img.shields.io/github/stars/farshadff/README-Template?style=social)
+![GitHub forks](https://img.shields.io/github/forks/rashadff/README-Template?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/madhurtaneja2?style=social)
 
 
 ## Table of Contents
 - [Getting Started](#getting-started)
 - [Development](#development)
-
-    - [Part 1: Heading](#part-1-heading)
-	  - [Step 1: Subheading](#step-1-subheading)
-	  - [Step 2: Subheading](#step-2-subheading)
-	- [Part 2: Heading](#part-2-heading)
-- [Running the App](#running-the-app)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [Versioning](#versioning)
-- [Authors](#authors)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+- [Usage](#running-the-app)
 
 ## Getting Started
 with the help of this package you can add a laravel bot to your channel and send your Notifications from Your laravel application to your telegram channel .
@@ -40,7 +29,8 @@ This Pacakge allows your telegram bot send data from the events of your laravel 
 ```
 for the `chat_id` you can add the add the `@get_id_bot` to your channel and it will give you the channel or group id and place it in `services.php`.
 
-#Usage
+## Usage
+
 Using this package is simple you just Call the `Telegram` and the methods which are all in the documentation in this link below :
 ```
 https://core.telegram.org/bots/api
