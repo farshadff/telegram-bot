@@ -27,6 +27,17 @@ use TelegramBot\Telegram; // it will be automatically added if not do it maniual
 Telegram::sendMessage($message);
 ```
 the parameters send to the function would be all the same as documenation for the required or optional parameters .
+ #Other Examples :
+ ```
+Telegram::sendPhoto($photo,$caption);
+Telegram::sendVideo($video,$caption);
+Telegram::sendLocation($lat,$long);
+Telegram::sendAudio($audio,$caption);
+Telegram::sendDocument($document,$caption);
+Telegram::sendAnimation($animation,$caption);
+Telegram::sendContact($phone_number,$first_name);
+Telegram::getChatMembersCount();
 
+ ```
 
 # The documentation Will be Updated Soon.
