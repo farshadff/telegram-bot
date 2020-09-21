@@ -18,7 +18,7 @@
 
 ---
 
-<p align = "center">💡 This Package Help Your Laravel Application to Send Data To Your Telegram Channel.</p>
+<p align = "center">💡 This Package Help Your Laravel Application to Send Data To Your Telegram Channel.💡</p>
 
 # laravel-Telegram-Bot
 ![Current Version](https://img.shields.io/badge/version-v0.1-blue)
