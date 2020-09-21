@@ -6,7 +6,7 @@
 
 <div align="center">
 
-  [![Tweet](https://img.shields.io/twitter/url/https/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Telegram.&url=https://github.com/kylelobo/The-Documentation-Compendium)
+  [![Tweet](https://img.shields.io/twitter/url/https/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=TelegramBot.&url=https://github.com/kylelobo/The-Documentation-Compendium)
   [![Status](https://img.shields.io/badge/status-active-success.svg)]()
   [![GitHub Issues](https://img.shields.io/github/issues/farshadff/telegram-bot)](https://github.com/farshadff/telegram-bot/issues)
   [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/farshadff/telegram-bot/pulls)
