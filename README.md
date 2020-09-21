@@ -1,9 +1,9 @@
 # laravel-Telegram-Bot
 ![Current Version](https://img.shields.io/badge/version-v0.1-blue)
-![GitHub contributors](https://img.shields.io/github/contributors/madhur-taneja/README-Template)
-![GitHub stars](https://img.shields.io/github/stars/farshadff/README-Template?style=social)
-![GitHub forks](https://img.shields.io/github/forks/rashadff/README-Template?style=social)
-![Twitter Follow](https://img.shields.io/twitter/follow/madhurtaneja2?style=social)
+![GitHub contributors](https://img.shields.io/github/contributors/farshadff/telegram-bot/README-Template)
+![GitHub stars](https://img.shields.io/github/stars/farshadff/telegram-bot/README-Template?style=social)
+![GitHub forks](https://img.shields.io/github/forks/farshadff/telegram-bot/README-Template?style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/farshadff?style=social)
 
 
 ## Table of Contents
