@@ -8,8 +8,8 @@
 
 ## Table of Contents
 - [Getting Started](#getting-started)
-	- [Installation](#installation)
-- [Usage](#development)
+- [Development](#development)
+
     - [Part 1: Heading](#part-1-heading)
 	  - [Step 1: Subheading](#step-1-subheading)
 	  - [Step 2: Subheading](#step-2-subheading)
