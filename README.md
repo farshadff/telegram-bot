@@ -9,7 +9,7 @@
 ## Table of Contents
 - [Getting Started](#getting-started)
 - [Development](#development)
-- [Usage](#running-the-app)
+- [Usage](#usage)
 
 ## Getting Started
 with the help of this package you can add a laravel bot to your channel and send your Notifications from Your laravel application to your telegram channel .
