@@ -13,6 +13,20 @@ This Pacakge allows your telegram bot send data from the events of your laravel 
         'parse_mode' => env('parse_mode','html'),
     ],
 ```
+for the `chat_id` you can add the add the `@get_id_bot` to your channel and it will give you the channel or group id and place it in `services.php`.
+
+#Usage
+Using this package is simple you just Call the `Telegram` and the methods which are all in the documentation in this link below :
+```
+https://core.telegram.org/bots/api
+```
+so the simple text message to group would be like :
+```
+use TelegramBot\Telegram; // it will be automatically added if not do it maniually  
+
+Telegram::sendMessage($message);
+```
+the parameters send to the function would be all the same as documenation for the required or optional parameters .
 
 
 # The documentation Will be Updated Soon.
