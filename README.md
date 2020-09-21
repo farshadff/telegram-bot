@@ -6,7 +6,7 @@
 
 <div align="center">
 
-  [![Tweet](https://img.shields.io/twitter/url/https/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=%F0%9F%93%A2%20Telegram bot Laravel Package Api .&url=https://github.com/farshadff/telegram-bot)
+  [![Tweet](https://img.shields.io/twitter/url/https/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=%F0%9F%93%A2%20Telegram%20bot%20Laravel%20Package Api.&url=https://github.com/farshadff/telegram-bot)
   [![Status](https://img.shields.io/badge/status-active-success.svg)]()
   [![GitHub Issues](https://img.shields.io/github/issues/farshadff/telegram-bot)](https://github.com/farshadff/telegram-bot/issues)
   [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/farshadff/telegram-bot/pulls)
